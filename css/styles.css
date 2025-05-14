@@ -106,19 +106,16 @@ header img{
    
 }
 
-ul{
+#postit ul{
     display: none;
     position: absolute;
     min-width: 75%;
     z-index: 75%;
 }
 
-.postit-item:hover ul{
+#postit .postit-item:hover ul{
     display: block;
-    background-color: #1c5c38;
-    border: 1px;
-    padding: 10px;
-    margin: 10px;
+    background-color: #191010;
     text-align: center;
 }
 
@@ -195,7 +192,9 @@ input{
     border-radius: 30px;
 }
 
-#objectif{
+#q3{
+    border: 2px solid #1c5c38;
+    border-radius: 30px;
     width: 90%;
     padding: 8px;
     height: 300px;
